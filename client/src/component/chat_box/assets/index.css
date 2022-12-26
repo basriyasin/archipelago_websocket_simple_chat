@@ -1,0 +1,49 @@
+.chatbox {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #888;
+}
+
+.chatbox-header {
+    padding: 10px;
+    background-color: white;
+    font-size: large;
+    font-weight: 800;
+    display: block;
+}
+
+.chatbox-body {
+    height: 89%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chatbox-input {
+    bottom: 0px;
+    width: 100vw;
+    position: absolute;
+    background-color: #ccc;
+    display: block;
+}
+
+input {
+    margin: 10px;
+    background-color: #fff;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-weight: bolder;
+    background-color: #ccc;
+    border-style: none;
+    cursor: pointer;
+}
